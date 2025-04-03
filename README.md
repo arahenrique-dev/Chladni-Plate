@@ -11,6 +11,12 @@ You can then watch as wave patterns for from the particles, creating unique shap
 You can click to explore different modes for a different visual effect!
 
 ## 📸 Preview
+<div style='display: flex; gap: 16px;'>
+  <img src='screenshots/1.png' style='width: 300px'/>
+  <img src='screenshots/2.png' style='width: 300px'/>
+  <img src='screenshots/3.png' style='width: 300px'/>
+  <img src='screenshots/4.png' style='width: 300px'/>
+</div>
 
 🤝 Contributions
 Feel free to open issues or submit pull requests to improve the simulation!
