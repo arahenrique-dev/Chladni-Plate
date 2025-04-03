@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+
+  <body>
+    <div id="content">
+      <h1 style="color: #64AEF6;">Chladni Plates</h1>
+      
+      <span style="font-weight: 600;">Equation:</span>
+      <span style="font-size: 16px; font-style: italic;">cos(n pi x / L) cos(m pi y / L) - cos(m pi x / L) cos(n pi y / L) = 0</span>
+      <div id="values">
+        <div><span style="font-weight: 600; color: #80EF80;">m: </span><span id="mValue">mValue</span></div>
+        <div><span style="font-weight: 600; color: #80EF80;">n: </span><span id="nValue">nValue</span></div>
+      </div>
+      <span style="background-color: black; 
+            font-weight: 600; 
+            color: white; 
+            padding: 12px; 
+            border-radius: 24px;"
+      >Click to change pattern!</span>
+    </div>
+    
+    <script src="Colors.js"></script>
+    <script src="Particle.js"></script>
+    <script src="sketch.js"></script>
+  </body>
+</html>
